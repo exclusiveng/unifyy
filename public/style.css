@@ -1,0 +1,150 @@
+/** @format */
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  background-color: rgb(228, 77, 58);
+  color: #fff;
+  display: flex;
+  height: 8vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  margin-left: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(228, 77, 58);
+}
+
+nav li {
+  list-style: none;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.f-txt {
+  color: #fff;
+  font-size: 25px;
+}
+
+.f-search {
+  width: 250px;
+  margin-top: 13px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: 0;
+}
+
+::-moz-placeholder {
+  font-size: 13px;
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  font-size: 13px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-size: 13px;
+  padding: 10px;
+}
+
+#auz {
+  color: #fff;
+  font-size: 15px;
+  transform: translateY(-10px);
+}
+
+.iconns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconnss {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.s-txt {
+  font-size: 10px;
+  color: #fff;
+}
+
+.mgg-plenty {
+  margin-left: 60px;
+}
+
+.mgg-plentyy {
+  margin-left: 35px;
+}
+
+.p-pic {
+  height: -webkit-fill-available;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-left: 1px solid rgba(184, 62, 62, 0.39);
+  border-right: 1px solid rgba(184, 62, 62, 0.39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-pic .fdv {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.p-pic .fdv p {
+  margin: 0 12px;
+}
+
+.s-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ss-txt {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

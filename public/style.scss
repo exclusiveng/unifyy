@@ -1,0 +1,143 @@
+/** @format */
+
+$color-1: rgb(228, 77, 58);
+$color-2: #51a5fb;
+$color-3: #fff;
+$color-4: rgb(0, 0, 0);
+$color-5: rgb(124, 122, 122);
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  background-color: $color-1;
+  color: $color-3;
+//   padding: 10px 30px;
+  display: flex;
+  height: 8vh;
+}
+a{
+  text-decoration: none;
+  color: $color-3;
+}
+
+a:hover{
+  color: $color-3;
+}
+h4 {
+  color: $color-3;
+  margin-left: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: $color-1;
+}
+
+nav li {
+  list-style: none;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+nav li a {
+  color: $color-3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+// nav li a:hover{
+//     color: $color-4;
+//     text-decoration: none;
+// }
+
+.f-txt {
+  color: $color-3;
+  font-size: 25px;
+  // transform: translateX(100px);
+  // margin-top: 10px;
+}
+.f-search {
+  width: 250px;
+  margin-top: 13px;
+  height: 35px;
+  padding-left: 10px;
+  // margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: 0;
+}
+::placeholder {
+  font-size: 13px;
+  padding: 10px;
+}
+#auz {
+  color: $color-3;
+  font-size: 15px;
+  transform: translateY(-10px);
+}
+.iconns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 0;
+  align-items: center;
+  cursor: pointer;
+}
+.iconnss {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  line-height: 0;
+  align-items: center;
+  cursor: pointer;
+}
+.s-txt {
+  font-size: 10px;
+  color: $color-3;
+}
+.mgg-plenty {
+  margin-left: 60px;
+}
+.mgg-plentyy {
+  margin-left: 35px;
+}
+.p-pic {
+  //   height: 100%;
+  height: -webkit-fill-available;
+  width: max-content;
+  border-left: 1px solid rgba(184, 62, 62, 0.39);
+  border-right: 1px solid rgba(184, 62, 62, 0.39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .fdv {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    p{
+        margin:0 12px;
+    }
+  }
+}
+.s-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ss-txt{
+  cursor: pointer;
+  
+}
